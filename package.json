@@ -1,0 +1,20 @@
+{
+  "name": "webpack-bundler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alen Vlahovljak",
+  "license": "MIT",
+  "dependencies": {
+    "fakerator": "^0.3.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "bundle:dev": "webpack",
+    "bundle:dev-server": "webpack serve"
+  },
+  "devDependencies": {
+    "source-map-loader": "^2.0.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
